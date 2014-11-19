@@ -30,7 +30,7 @@ public class TextReaderApp{
 	 
         } catch(IOException ioe) {
             ioe.printStackTrace();
-            System.out.println("Houston, we have a problem! reading this file");
+            System.out.println("Cant read file");
         } finally {
             try {
                 in.close();
