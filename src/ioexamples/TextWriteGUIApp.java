@@ -22,6 +22,7 @@ public class TextWriteGUIApp{
  	
  	  // check if user clicked Cancel button on dialog (or got an error), if so, exit
  	  int result = fileChooser.showSaveDialog( null );
+          //NULL ABOVE SHOULD BE MAINGUI!!!!!!!
  	  if( !(result == APPROVE) )
  		 System.exit(0);
      	

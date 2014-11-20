@@ -20,9 +20,11 @@ public class TextReaderGUIApp{
 	   	// Build a file chooser component that displays files only
 	   	JFileChooser fileChooser = new JFileChooser();
 	   	fileChooser.setFileSelectionMode( JFileChooser.FILES_ONLY );
+                //FOLDERS ONLY OR FILES AND FOLDERS!!!!
 	   	
 	   	// check if user clicked Cancel button on dialog, if so, return
 	   	int result = fileChooser.showOpenDialog( null );
+                //NULL ABOVE IS MAINGUI!!!!!!!!!
 	 	if( !(result == APPROVE) )
 	 		System.exit(0);
 	   	

@@ -31,6 +31,7 @@ public class FirstLastGUI extends JFrame implements ActionListener {
 		// Set default look and feel for system
         try {
             UIManager.setLookAndFeel( UIManager.getSystemLookAndFeelClassName() );
+            //ABOVE CODE IS KEY!!!!!!!!!!!!!!!!!!!!!
         } catch (Exception e) {
             // Likely the L&F class is not in the class path; ignore.
         }
